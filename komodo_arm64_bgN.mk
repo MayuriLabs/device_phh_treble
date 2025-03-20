@@ -4,6 +4,7 @@ $(call inherit-product, device/phh/treble/base.mk)
 # Inherit some common KomodoOS stuff.
 KOMODO_MAINTAINER := wulan17
 WITH_GAPPS := true
+WITH_ADB_INSECURE := true
 $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 
 PRODUCT_NAME := komodo_arm64_bgN
